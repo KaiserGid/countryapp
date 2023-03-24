@@ -3,5 +3,7 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 class AppModule extends Module {
   @override
-  List<ModularRoute> get routes => [ModuleRoute('/', module: HomeModule())];
+  List<ModularRoute> get routes => [
+        ModuleRoute('/home', module: HomeModule()),
+      ];
 }

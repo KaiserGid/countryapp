@@ -5,8 +5,5 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'src/app.dart';
 
 void main() {
-  runApp(ModularApp(
-    module: AppModule(),
-    child: const App(),
-  ));
+  runApp(ModularApp(module: AppModule(), child: const App()));
 }

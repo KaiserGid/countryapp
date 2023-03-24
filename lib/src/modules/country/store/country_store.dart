@@ -1,6 +1,6 @@
-import 'package:country_app/src/shared/datasource/dio_datasource.dart';
+import 'package:country_app/src/modules/country/datasource/dio_datasource.dart';
+import 'package:country_app/src/modules/country/repository/country_repository.dart';
 import 'package:country_app/src/shared/models/country_model.dart';
-import 'package:country_app/src/shared/repository/country_repository.dart';
 import 'package:flutter/material.dart';
 
 class CountryStore extends ValueNotifier<List<CountryModel>> {

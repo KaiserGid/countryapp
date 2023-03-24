@@ -1,4 +1,4 @@
-import 'package:country_app/src/shared/datasource/dio_datasource.dart';
+import 'package:country_app/src/modules/country/datasource/dio_datasource.dart';
 import 'package:country_app/src/shared/models/country_model.dart';
 
 class CountryRepository {

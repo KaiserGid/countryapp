@@ -10,7 +10,9 @@ class DioDatasource {
     List data = response.data;
 
     for (var map in data) {
-      countrys.add(CountryModel(map['translations']['por']['common'], map['flags']['png']));
+      countrys.add(
+        CountryModel.fromMap(map),
+      );
     }
 
     return countrys;

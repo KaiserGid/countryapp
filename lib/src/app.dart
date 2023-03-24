@@ -6,11 +6,16 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Modular.setInitialRoute('/');
+    Modular.setInitialRoute('/home/');
 
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
+
+      //routes conficuration
       routerDelegate: Modular.routerDelegate,
       routeInformationParser: Modular.routeInformationParser,
+
+      //theme configuration
       theme: ThemeData(useMaterial3: true),
     );
   }
